@@ -3,7 +3,7 @@
 
 ## Introduction
 
-**Super Mario 65 : The Supremacy** is a goofy ahh rom hack made by from Super mario 64 Beta copy that i got it dumped from the McDonald's Extreme Dirty Dumpster.
+**Super Mario 65 : The Supremacy** is a goofy ahh rom hack made by from Super mario 64 Beta copy that i got it dumped from the McDonald's Extreme Dirty Dumpster, Featuring playable lugegi.
 
 ## Installation
 
