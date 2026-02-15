@@ -1,49 +1,65 @@
-# showfloor
+# The Supremacy!1!!1
 ![showfloorlogo](https://github.com/user-attachments/assets/255078c5-d31c-4284-a720-f1f2ddcefd4f)
 
 ## Introduction
 
-**showfloor** is a recreation of the Shoshinkai 1995 demo of Super Mario 64, based on [The Preservation Project](https://github.com/Sunlitspace542/tpp-mirror) (TPP). It aims to continue TPP's legacy with greater accuracy to the source material.
+**Super Mario 65 : The Supremacy** is a goofy ahh rom hack made by from Super mario 64 Beta copy that i got it dumped from the McDonald's Extreme Dirty Dumpster.
 
 ## Installation
 
-The build process is the same as the [SM64 Decomp's](https://github.com/n64decomp/sm64).
-Follow their [README](https://github.com/n64decomp/sm64/blob/master/README.md#installation) for setup steps and prerequisites (dependencies, baserom, etc).
+You Need A JP Rom to make this work.
+
+The Process is basically the same as the Original SM64 Decomp.
+
+# For Starters
+
+Install the build essentials.
+
+- ```sudo apt install -y build-essential git pkgconf python3```
+
+There are some different tools options, but i would rather go to for GCC.
+
+- Install ```sudo apt install gcc-mips-linux-gnu``` for newer tools.
+- Install ```sudo apt install binutils-mips-linux-gnu``` for older tools.
 
 Clone and build:
 
 ```sh
-git clone https://github.com/96flashbacks/showfloor.git
-cd showfloor
-make
+git clone https://github.com/RunnerBoy51627/The-Supremacy-Project/The-Supremacy-Project.git
+cd The-Supremacy-Project
+make -j4
 ```
 
-### RSP Microcode
+Read the full thing on the showfloor.
 
-This project uses the same `GRUCODE` build variable as the SM64 Decomp, but with different options.
+# Q&A
 
-Default is `f3d_102695`.
+### Why did you make this hack?
+Supreme Fun, I guess.
 
-- `f3d_102695`: gspFast3D from Ultra 64 OS release 102695 (U64 Aging Cartridge). Not HLE-compatible.
-- `f3d_20E`: gspFast3D from OS 2.0E (bbgames' ostrees). HLE-compatible.
+### Do you want us to use this repo of a rom hack based?
+Sure, but mostly not recommended.
 
-Build with a specific microcode:
+You mostly need to add back the original assets back to the repo.
 
-```sh
-make GRUCODE=f3d_20E
-```
+# The Things
 
-## Q&A
+### Tools & Resources
+- [Fast64](https://github.com/Fast-64/fast64)
+- [SM64 Decomp](https://github.com/n64decomp/sm64)
+- [64History’s Archives](https://archive.org/details/sm64-beta-content)
+- [Dudaw’s Archives](https://archive.org/details/sm64brp_src_abandoned)
+- [Roovahlees’s Archives](https://archive.org/details/@roovahlees)
+- [VGM & Other Instrument Sources Spreadsheet](https://docs.google.com/spreadsheets/d/1JJBlHHDc65fhZmKUGLrDTLCm6rfUU83-kbuD8Y0zU0o/edit?gid=2047725819#gid=2047725819)
+- [Retro Aesthetics’ Mario Series Matches](https://retroaesthetics.net/mario-series-matches/)
+- [TCRF’s Page](https://tcrf.net/Prerelease:Super_Mario_64_(Nintendo_64)/Shoshinkai_1995_Demo)
+- [Original TPP Source Code](https://github.com/Sunlitspace542/tpp-mirror)
 
-**Can I use this as a base for another project?**
-- Yes, but not recommended, as many vanilla assets were removed or edited, so you'd need to re-add them.
-
-**Can I contribute to this repository?**
-- Contributions are welcome. Please open an issue to report problems or suggest improvements, and feel free to submit pull requests.
-
-For more questions, join our [Discord server](https://discord.gg/ynabeAS4eD).
 
 ## Credits
+
+### One who made this Project
+- RunnerBoy51627 (YetRunnerGamez)
 
 ### '96flashbacks' Team
 
@@ -141,14 +157,3 @@ For more questions, join our [Discord server](https://discord.gg/ynabeAS4eD).
 - Toru the Red Fox
 - CreamDream
 - Diamond Hero
-
-### Tools & Resources
-- [Fast64](https://github.com/Fast-64/fast64)
-- [SM64 Decomp](https://github.com/n64decomp/sm64)
-- [64History’s Archives](https://archive.org/details/sm64-beta-content)
-- [Dudaw’s Archives](https://archive.org/details/sm64brp_src_abandoned)
-- [Roovahlees’s Archives](https://archive.org/details/@roovahlees)
-- [VGM & Other Instrument Sources Spreadsheet](https://docs.google.com/spreadsheets/d/1JJBlHHDc65fhZmKUGLrDTLCm6rfUU83-kbuD8Y0zU0o/edit?gid=2047725819#gid=2047725819)
-- [Retro Aesthetics’ Mario Series Matches](https://retroaesthetics.net/mario-series-matches/)
-- [TCRF’s Page](https://tcrf.net/Prerelease:Super_Mario_64_(Nintendo_64)/Shoshinkai_1995_Demo)
-- [Original TPP Source Code](https://github.com/Sunlitspace542/tpp-mirror)
